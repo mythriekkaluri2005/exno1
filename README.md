@@ -124,6 +124,11 @@ z = np.abs(stats.zscore(dataset['height']))
 z
 ```
 ![image](https://github.com/user-attachments/assets/44acc566-c114-48f5-a5dd-5cabc4a1fdfc)
+```
+ df1 = df[z<3]
+ df1
+```
+![image](https://github.com/user-attachments/assets/d4352ba4-27ed-433e-bab0-e97b26b1a23e)
 
 
 # Result
